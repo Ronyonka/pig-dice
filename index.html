@@ -8,12 +8,12 @@
 </head>
 
 <body>
-  <div class="container-fluid">
+  <div class="container">
     <div class="jumbotron">
       <h1>Pig Dice</h1>
     </div>
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-4">
         <div class="well">
           <h4>Player 1</h4>
           <div class="playerOne">
@@ -22,7 +22,15 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-4">
+        <div class="well">
+          <div class="row" id="buttons">
+            <button type="button" name="button" class="active" onclick="rollDice()">Roll</button>
+            <button type="button" name="button" onclick="hold()">Hold</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
         <div class="well">
           <h4>Player 2</h4>
           <div class="playerOne">
@@ -32,10 +40,7 @@
         </div>
       </div>
     </div>
-    <div class="row" id="buttons">
-      <button type="button" name="button" onclick="rollDice()">Roll</button>
-      <button type="button" name="button">Hold</button>
-    </div>
+
   </div>
 
   <script type="text/javascript" src="js/jquery-3.3.1.js"></script>
