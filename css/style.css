@@ -1,3 +1,7 @@
-#buttons{
-    align-items: center;
+.jumbotron {
+  text-align: center;
+  font-family: arial;
+}
+#buttons {
+  margin-left: 530px;
 }
