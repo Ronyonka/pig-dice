@@ -3,5 +3,8 @@
   font-family: arial;
 }
 #buttons {
-  margin-left: 530px;
+  align-items: center;
+}
+body{
+  background-color: blue;
 }
