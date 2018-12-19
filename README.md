@@ -20,8 +20,8 @@ website url: https://Ronyonka.github.io/pig-dice/
 There are no known bugs.
 
 # Behaviour Driven Development
-|Behaviour                            |Input|           |Output|
-|:-----------------------------------|:-----------------|:-------------------------------------------------|
+| Behaviour                            | Input |           | Output |
+|-----------------------------------|----------------|--------------------------------------------------|
 | When player press roll | Player hits roll |generates random number between 1-6|
 | Web app will add roll to current score| Player hits Roll |current score will be initial rolled number|
 | Web app will add second rolls to current score| Player hits Roll |current score = initial rolled number + new rolled number|
