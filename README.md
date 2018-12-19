@@ -1,5 +1,5 @@
-## Website Name: Quizz
-By: Ron Onyonka
+# Website Name: Pig Dice Game
+By: **Ron Onyonka**
 Date: 17th December 2018
 
 ## Description
@@ -16,10 +16,10 @@ website url: https://Ronyonka.github.io/pig-dice/
 -   You  can open the index.html page on your Chrome browser to check the functionality.
 
 
-# Known Bugs
+## Known Bugs
 There are no known bugs.
 
-# Behaviour Driven Development
+## Behaviour Driven Development
 | Behaviour                            | Input |           | Output |
 |-----------------------------------|----------------|--------------------------------------------------|
 | When player press roll | Player hits roll |generates random number between 1-6|
@@ -41,7 +41,7 @@ I also utilized jquery to display results on HTML.
 
 reach me on email rononyonka@gmail.com
 
-### License
+## License
 
 Copyright (c) 2018 **Ron Onyonka**
 
